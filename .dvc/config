@@ -1,4 +1,8 @@
 [core]
-    remote = gdrive-remote
+    remote = storage
 ['remote "gdrive-remote"']
     url = gdrive://root/wafer_data
+['remote "myremote"']
+    url = ../ gdrive:/1cS0WMBqlvJfmmPx1PhCns8bkWEpmOFmy
+['remote "storage"']
+    url = gdrive://1cS0WMBqlvJfmmPx1PhCns8bkWEpmOFmy
